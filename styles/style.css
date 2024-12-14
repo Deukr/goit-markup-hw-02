@@ -1,0 +1,285 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  /*   width: 1440px; */
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+/*? ======================HEADER============================== */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+  background: #fff;
+}
+.header-navigation {
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.header-logo-color {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-contact-list {
+}
+.header-contact-item {
+}
+.header-contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-contact-link:hover {
+  color: #007bff;
+}
+
+.main {
+}
+
+/*? ===========================HERO========================= */
+
+.hero {
+  background: #2e2f42;
+  text-align: center;
+  padding: 50px 20px;
+  font-weight: 700;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: right;
+  color: #fff;
+}
+.hero-btn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 16px 32px;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+}
+
+.hero-btn-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-btn:hover {
+  box-shadow: 0 4px 4px 0 rgba(180, 115, 223, 0.15);
+}
+
+/*?====================FEATURES================================ */
+.features {
+  width: 1440px;
+  height: 336px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features-list {
+  display: flex; /* Расположить элементы в ряд */
+  flex-wrap: wrap; /* Чтобы карточки переносились на новую строку, если не помещаются */
+  gap: 20px; /* Расстояние между карточками */
+  justify-content: center; /* Выравнивание карточек по центру */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.features-list-item {
+  width: 264px;
+  height: 104px;
+}
+.features-list-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.features-list-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*?========================TEAM============================ */
+.team {
+  background: #f4f4fd;
+
+  height: 732px;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-list {
+  display: flex; /* Расположить элементы в ряд */
+  flex-wrap: wrap; /* Чтобы карточки переносились на новую строку, если не помещаются */
+  gap: 20px; /* Расстояние между карточками */
+  justify-content: center; /* Выравнивание карточек по центру */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.team-list-item {
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+}
+.team-list-img {
+}
+.team-item-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-item-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+/*? ======================PORTFOLIO============================= */
+.portfolio {
+  width: 1128px;
+  height: 1000px;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio-list {
+  display: flex; /* Расположить элементы в ряд */
+  flex-wrap: wrap; /* Чтобы карточки переносились на новую строку, если не помещаются */
+  gap: 20px; /* Расстояние между карточками */
+  justify-content: center; /* Выравнивание карточек по центру */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.portfolio-list-item {
+}
+.portfolio-item-img {
+}
+.portfolio-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/*? ======================FOOTER============================= */
+.footer {
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-logo-color {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
