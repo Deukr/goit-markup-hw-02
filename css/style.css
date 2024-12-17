@@ -36,7 +36,7 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+
   color: #2e2f42;
 }
 
@@ -126,8 +126,6 @@ button {
 }
 
 .features-list {
-  flex-wrap: wrap; /* Чтобы карточки переносились на новую строку, если не помещаются */
-
   justify-content: center; /* Выравнивание карточек по центру */
   list-style: none;
 
@@ -153,8 +151,6 @@ button {
 /*?========================TEAM============================ */
 .team {
   background: #f4f4fd;
-
-  height: 732px;
 }
 .team-title {
   font-weight: 700;
@@ -166,8 +162,6 @@ button {
   color: #2e2f42;
 }
 .team-list {
-  flex-wrap: wrap; /* Чтобы карточки переносились на новую строку, если не помещаются */
-
   justify-content: center; /* Выравнивание карточек по центру */
   list-style: none;
 
