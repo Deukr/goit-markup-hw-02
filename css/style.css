@@ -18,9 +18,9 @@ button {
 }
 /*? ======================HEADER============================== */
 .header {
-  border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
+  /*  border-bottom: 1px solid #e7e9fc; */
+  /* width: 1440px;
+  height: 72px; */
   background: #fff;
 }
 .header-navigation {
@@ -95,15 +95,15 @@ button {
   color: #fff;
 }
 .hero-btn {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
+  /*   display: flex; */
+  /*  align-items: flex-start;
+  justify-content: flex-start; */
+  /*  flex-direction: row; */
+  /*  gap: 10px; */
+  /* border-radius: 4px; */
+  /*  padding: 16px 32px; */
 
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  /*   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   background: #4d5ae5;
 }
 
@@ -117,7 +117,7 @@ button {
 }
 
 .hero-btn:hover {
-  box-shadow: 0 4px 4px 0 rgba(180, 115, 223, 0.15);
+  /*  box-shadow: 0 4px 4px 0 rgba(180, 115, 223, 0.15); */
   background-color: #404bbf;
 }
 
@@ -127,16 +127,16 @@ button {
 
 /*?====================FEATURES================================ */
 .features {
-  width: 1440px;
-  height: 336px;
+  /*   width: 1440px;
+  height: 336px; */
 }
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
+  /*   position: absolute; */
+  /*  width: 1px;
+  height: 1px; */
   margin: -1px;
   border: 0;
-  padding: 0;
+  /*  padding: 0; */
 
   white-space: nowrap;
   clip-path: inset(100%);
@@ -145,17 +145,17 @@ button {
 }
 
 .features-list {
-  display: flex; /* Расположить элементы в ряд */
+  /*  display: flex; */ /* Расположить элементы в ряд */
   flex-wrap: wrap; /* Чтобы карточки переносились на новую строку, если не помещаются */
-  gap: 20px; /* Расстояние между карточками */
+  /* gap: 20px; */ /* Расстояние между карточками */
   justify-content: center; /* Выравнивание карточек по центру */
   list-style: none;
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
 }
 .features-list-item {
-  width: 264px;
-  height: 104px;
+  /* width: 264px;
+  height: 104px; */
 }
 .features-list-item-title {
   font-weight: 500;
@@ -188,21 +188,21 @@ button {
   text-transform: capitalize;
 }
 .team-list {
-  display: flex; /* Расположить элементы в ряд */
+  /* display: flex;  */ /* Расположить элементы в ряд */
   flex-wrap: wrap; /* Чтобы карточки переносились на новую строку, если не помещаются */
-  gap: 20px; /* Расстояние между карточками */
+  /* gap: 20px;  */ /* Расстояние между карточками */
   justify-content: center; /* Выравнивание карточек по центру */
   list-style: none;
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
 }
 .team-list-item {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  /*  border-radius: 0 0 4px 4px; */
+  /* padding: 0px 0px 32px 0px; */
+  /*  width: 264px;
+  height: 380px; */
+  /*   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
   background: #fff;
 }
 .team-list-img {
@@ -228,8 +228,8 @@ button {
 
 /*? ======================PORTFOLIO============================= */
 .portfolio {
-  width: 1128px;
-  height: 1000px;
+  /* width: 1128px;
+  height: 1000px; */
 }
 .portfolio-title {
   font-weight: 700;
@@ -241,12 +241,12 @@ button {
   text-transform: capitalize;
 }
 .portfolio-list {
-  display: flex; /* Расположить элементы в ряд */
+  /*   display: flex;  */ /* Расположить элементы в ряд */
   flex-wrap: wrap; /* Чтобы карточки переносились на новую строку, если не помещаются */
-  gap: 20px; /* Расстояние между карточками */
+  /*  gap: 20px; */ /* Расстояние между карточками */
   justify-content: center; /* Выравнивание карточек по центру */
   list-style: none;
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
 }
 .portfolio-list-item {
@@ -269,8 +269,8 @@ button {
 
 /*? ======================FOOTER============================= */
 .footer {
-  width: 1440px;
-  height: 312px;
+  /* width: 1440px;
+  height: 312px; */
   background: #2e2f42;
 }
 
