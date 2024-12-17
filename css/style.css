@@ -81,7 +81,7 @@ button {
 .hero {
   background: #2e2f42;
   text-align: center;
-  padding: 50px 20px;
+
   font-weight: 700;
 }
 .hero-title {
@@ -204,8 +204,6 @@ button {
   text-transform: capitalize;
 }
 .portfolio-list {
-  flex-wrap: wrap; /* Чтобы карточки переносились на новую строку, если не помещаются */
-
   justify-content: center; /* Выравнивание карточек по центру */
   list-style: none;
 
